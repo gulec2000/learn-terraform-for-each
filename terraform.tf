@@ -1,5 +1,7 @@
 terraform {
   cloud {
+
+    organization = "serdar-devops-test"
     workspaces {
       name = "learn-terraform-for-each"
     }
